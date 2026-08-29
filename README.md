@@ -47,15 +47,11 @@ It offers a writing, running and testing environment for the app in the browser,
 The network port that the Express server is bound to, which allows the browser to send requests to and receive responses from the app.
 ### 3. What may happen when the application port is made public?
 The forwarding of the URL meant that the app could be accessed from any internet connection and potentially been used without authorization or data being exposed.
-### 4. Which parts of the environment are handled by GitHub
-or the cloud provider?
+### 4. Which parts of the environment are handled by GitHub or the cloud provider?
 Physical servers, data centers, underlying infrastructure, the Codespaces platform and physical networking.
-### 5. Which parts are your responsibility as the
-application developer?
+### 5. Which parts are your responsibility as the application developer?
 Application code, access to the repository, data kept in the app, visibility of the port, credentials, configuration, and not having exposed secrets.
-### 6. Why should passwords, API keys, and other secrets
-not be uploaded to a public GitHub repository?
+### 6. Why should passwords, API keys, and other secrets not be uploaded to a public GitHub repository?
 Exposed secrets are available in a public repo and may be stolen for use in gaining unauthorized access to an account or system.
-### 7. How does this activity demonstrate the
-Shared Responsibility Model?
+### 7. How does this activity demonstrate the Shared Responsibility Model?
 The platform and infrastructure are taken care by GitHub, and my code, port settings and secrets are protected by me
